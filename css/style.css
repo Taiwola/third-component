@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E0E0E0;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    background-color: #ffffff;
+    width: 403px;
+    height: 100px;
+    top: 316px;
+    padding: 22px 12px;
+    gap: 12px;
+    
+}
+
+.card-img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.card-img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-text > h1 {
+    height: 26px;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+span{
+    color: #CC0642;
+}
+
+.card-text{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.card-text > p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.48px;
+}
+
